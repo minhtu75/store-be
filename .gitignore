@@ -1,3 +1,9 @@
+*.MF
+/store-common/target/
+/store-model/target/
+/store-persistent/target/
+/store-service/target/
+/store-service-impl/target/
 /store-service-impl/*.classpath
 /store-service-impl/*.project
 /store-service-impl/target/test-classes/com/demo/store/*.class
@@ -23,3 +29,5 @@
 /store-api/*.classpath
 /store-common/*.classpath
 /store-service/*.classpath
+/store-api/target
+/.project
