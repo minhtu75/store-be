@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.model.store.product.ProductResponse;
+import com.demo.store.entity.Product;
 
 @RestController
 @RequestMapping(value = "/product")
@@ -17,8 +17,8 @@ public class ProductController {
 	ProducService productService;
 	
 	@RequestMapping(value = "/getAll", method = RequestMethod.GET)
-	public List<ProductResponse> getAll() {
-		return productService.getAllProduct();
+	public List<Product> getAll() {
+		return productService.findAll();
 	}
 	
 }
