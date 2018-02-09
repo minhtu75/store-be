@@ -31,3 +31,7 @@
 /store-service/*.classpath
 /store-api/target
 /.project
+/*.bak
+/store-model/.settings
+/store-persistent/src/main/java/META-INF
+/store-persistent/.settings
