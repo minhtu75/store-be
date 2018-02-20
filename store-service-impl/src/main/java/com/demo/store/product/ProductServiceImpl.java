@@ -10,8 +10,8 @@ import org.springframework.stereotype.Service;
 
 import com.demo.store.common.AbstractService;
 import com.demo.store.entity.Product;
+import com.demo.store.product.ProductResponse;
 import com.demo.store.product.repository.ProductRepository;
-import com.model.store.product.ProductResponse;
 
 @Service
 public class ProductServiceImpl extends AbstractService<Product> implements ProducService{

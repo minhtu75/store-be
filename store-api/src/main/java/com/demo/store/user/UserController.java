@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.demo.store.UserService;
-import com.model.user.UserResponse;
+import com.demo.user.UserResponse;
 
 @RestController
 @RequestMapping(value = "/user", method = RequestMethod.GET)

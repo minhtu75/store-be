@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.demo.store.UserService;
-import com.model.user.UserResponse;
+import com.demo.user.UserResponse;
 
 @Service
 public class UserServiceImpl implements UserService{

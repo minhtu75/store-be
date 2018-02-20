@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.data.domain.Page;
 
 import com.demo.store.entity.Product;
-import com.model.store.product.ProductResponse;
+import com.demo.store.product.ProductResponse;
 
 public interface ProducService {
 

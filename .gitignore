@@ -35,3 +35,7 @@
 /store-model/.settings
 /store-persistent/src/main/java/META-INF
 /store-persistent/.settings
+/store-persistent/*.project
+/store-common/*.project
+/store-api/*.project
+/store-service/*.project

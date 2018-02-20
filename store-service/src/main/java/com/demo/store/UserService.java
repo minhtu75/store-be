@@ -1,6 +1,6 @@
 package com.demo.store;
 
-import com.model.user.UserResponse;
+import com.demo.user.UserResponse;
 
 public interface UserService {
 	
